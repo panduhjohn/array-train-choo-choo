@@ -16,14 +16,14 @@ const numbers = [
 console.log('### Challenge #1');
 
 // Console out each number in the `numbers` array, individually.
-for(let i = 0; i < numbers.length; i++) { 
+for (let i = 0; i < numbers.length; i++) {
     console.log(numbers[i])
 }
 
 console.log('### Challenge #2');
 
 // Now do the same thing, but backwards.
-for(let i = numbers.length - 1; i >= 0; i--) { 
+for (let i = numbers.length - 1; i >= 0; i--) {
     console.log(numbers[i]);
 
 }
@@ -32,7 +32,7 @@ console.log('### Challenge #3');
 
 // Console out each number plus 19, individually.
 
-for(let i = 0; i < numbers.length; i++) { 
+for (let i = 0; i < numbers.length; i++) {
     console.log(numbers[i] + 19);
 }
 
@@ -42,7 +42,7 @@ console.log('### Challenge #4');
 
 
 let sum = 0
-for(let i = 0; i < numbers.length; i++) { 
+for (let i = 0; i < numbers.length; i++) {
     sum += numbers[i]
     console.log(sum);
 
@@ -52,8 +52,8 @@ console.log('### Challenge #5');
 
 // Console out each number individually, but only if it's an even number.
 
-for(let i = 0; i < numbers.length; i++) { 
-    if(numbers[i] % 2 === 0) {
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 === 0) {
         console.log(numbers[i])
     }
 }
@@ -63,11 +63,11 @@ console.log('### Challenge #6');
 // Console out each number, but only if it ends with a 4 digit.
 
 
-for(let i = 0; i < numbers.length; i++) { 
-    
-    if(numbers[i] % 10 === 4)
-    
-    console.log(numbers[i])
+for (let i = 0; i < numbers.length; i++) {
+
+    if (numbers[i] % 10 === 4)
+
+        console.log(numbers[i])
 }
 
 
@@ -77,7 +77,7 @@ console.log('### Challenge #7');
 
 let newArray = []
 
-for(let i = 0; i < numbers.length; i++) {  
+for (let i = 0; i < numbers.length; i++) {
     newArray.push(numbers[i])
 }
 console.log(newArray);
@@ -88,7 +88,7 @@ console.log('### Challenge #8');
 
 let reverseArray = []
 
-for(let i = numbers.length - 1; i >= 0 ; i--) { 
+for (let i = numbers.length - 1; i >= 0; i--) {
     reverseArray.push(numbers[i])
 }
 console.log(reverseArray);
@@ -100,8 +100,8 @@ console.log('### Challenge #9');
 
 let oddArray = []
 
-for(let i = 0; i < numbers.length; i++) { 
-    if(numbers[i] % 2 !== 0) {
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 !== 0) {
         oddArray.push(numbers[i])
     }
 }
@@ -127,7 +127,7 @@ console.log('### Challenge #11');
 let lastArray = [];
 let sentence = ' is one of the best numbers, objectively and obviously.';
 
-for(let i = 0; i < numbers.length; i++) { 
+for (let i = 0; i < numbers.length; i++) {
     lastArray.push(numbers[i] + sentence)
 }
 
